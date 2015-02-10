@@ -1,0 +1,24 @@
+
+/*-----------------------------------------------------------------
+// Pricing Table base Styling
+-----------------------------------------------------------------*/
+.panel-body {background-color:#aaa;}
+
+/*  Pricing Table Hover Effects */
+.panel.price {border: 1px solid rgb(236, 236, 236); }
+.panel.price, .panel.price>.panel-heading{ border-radius:0px;  -moz-transition: all .3s ease; -o-transition:  all .3s ease; -webkit-transition:  all .3s ease; }
+.panel.price:hover{ box-shadow: 0px 0px 30px rgba(0,0,0, .2); }
+.panel.price:hover>.panel-heading{ box-shadow: 0px 0px 30px rgba(0,0,0, .05) inset; }
+
+/* Pricing Table Subtle Border Styling */
+.panel.price>.panel-heading{ box-shadow: 0px 3px 0px rgba(200,200,200, .2) inset; }
+
+/*  Pricing Table Footer */
+.price .panel-footer { color: #fff; border-bottom:0px; background-color:  rgba(0,0,0, .1); box-shadow: 0px 3px 0px rgba(0,0,0, .3);} /* Footer Box styling */
+
+
+
+
+
+
+
