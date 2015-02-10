@@ -16,10 +16,10 @@
 /*  Pricing Table Footer */
 .price .panel-footer { color: #fff; border-bottom:0px; background-color:  rgba(0,0,0, .1); box-shadow: 0px 3px 0px rgba(0,0,0, .3);} /* Footer Box styling */
 
+/* Pricing Table Red Pricing Header Typography */
+.panel .panel-body p strong {color: #47080B; font-weight:900; font-size:30px;}
+.panel-body p strike {font-size:24px; }
 
-
-
-
-
-
-
+/* Pricing Table Red Button */
+.btn-register{text-shadow:1px 1px #333; color:#fff; background:#c9222b;  font-size:20px ; font-weight:900 ; text-transform:uppercase; letter-spacing:3px ;}
+.btn-register:hover{background:#a7060f ;}
