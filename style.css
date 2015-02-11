@@ -16,7 +16,7 @@
 /*  Pricing Table Footer */
 .price .panel-footer { color: #fff; border-bottom:0px; background-color:  rgba(0,0,0, .1); box-shadow: 0px 3px 0px rgba(0,0,0, .3);} /* Footer Box styling */
 
-/* Pricing Table Red Pricing Header Typography */
+/* Pricing Table Pricing Header Typography */
 .panel .panel-body p strong {color: #47080B; font-weight:900; font-size:30px;}
 .panel-body p strike {font-size:24px; }
 
