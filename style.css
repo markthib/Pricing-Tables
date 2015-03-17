@@ -46,5 +46,5 @@
 
 /* Tier Defaults */
 .Tier { padding-bottom: 1em; margin-bottom:1em; }
-.Tier1, .Tier3, .Tier5, .Tier7 { background:#D9E8DF; }
-.Tier2, .Tier4, .Tier6, .Tier8 { background:#D9DFE7; }
+.tiercombined .Tier1, .tiercombined .Tier3, .tiercombined .Tier5, .tiercombined .Tier7 { background:#D9E8DF; }
+.tiercombined .Tier2, .tiercombined .Tier4, .tiercombined .Tier6, .tiercombined .Tier8 { background:#D9DFE7; }
