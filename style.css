@@ -20,6 +20,7 @@
 /*-----------------------------------------------------------------
 // Pricing Table base Styling
 -----------------------------------------------------------------*/
+.price h2 { text-align:center; }
 .panel-body {background-color:#aaa;}
 .panel.price ul {padding-left: 0 !important;}
 
@@ -30,7 +31,7 @@
 .panel.price:hover>.panel-heading{ box-shadow: 0px 0px 30px rgba(0,0,0, .05) inset; }
 
 /* Pricing Table Subtle Border Styling */
-.panel.price>.panel-heading{ box-shadow: 0px 3px 0px rgba(200,200,200, .2) inset; }
+.panel.price>.panel-heading{ box-shadow: 0px 3px 0px rgba(200,200,200, .2) inset; height:5em; }
 
 /* Pricing Table Pricing Header Typography */
 .panel .panel-body p strong {color: #47080B; font-weight:900; font-size:30px;}
@@ -46,5 +47,5 @@
 
 /* Tier Defaults */
 .Tier { padding-bottom: 1em; margin-bottom:1em; }
-.tiercombined .Tier1, .tiercombined .Tier3, .tiercombined .Tier5, .tiercombined .Tier7 { background:#D9E8DF; }
+.tiercombined .Tier1, .tiercombined .Tier3, .tiercombined .Tier5, .tiercombined .Tier7 { background:#f5e5cc; }
 .tiercombined .Tier2, .tiercombined .Tier4, .tiercombined .Tier6, .tiercombined .Tier8 { background:#D9DFE7; }
