@@ -20,7 +20,7 @@
 /*-----------------------------------------------------------------
 // Pricing Table base Styling
 -----------------------------------------------------------------*/
-.pricing .Tier h2 { text-align:center; }
+.Tier h2 { text-align:center; }
 .panel-body {background-color:#aaa;}
 .panel.price ul {padding-left: 0 !important;}
 
