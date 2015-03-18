@@ -21,7 +21,7 @@
 // Pricing Table base Styling
 -----------------------------------------------------------------*/
 .Tier h2 { text-align:center; }
-.panel-body {background-color:#aaa;}
+.panel-body {background-color:#ccc;}
 .panel.price ul {padding-left: 0 !important;}
 
 /*  Pricing Table Hover Effects */
@@ -43,9 +43,29 @@
 
 /* Pricing Table Register Button */
 .btn-register{text-shadow:1px 1px #333; color:#fff; background:#c9222b;  font-size:18px ; font-weight:900 ; text-transform:uppercase; letter-spacing:1px ;}
-.btn-register:hover{background:#a7060f ;}
+.btn-register:hover{background:#a7060f; color:#fff;}
 
 /* Tier Defaults */
 .Tier { padding-bottom: 1em; margin-bottom:1em; }
-.tiercombined .Tier1, .tiercombined .Tier3, .tiercombined .Tier5, .tiercombined .Tier7 { background:#f5e5cc; }
-.tiercombined .Tier2, .tiercombined .Tier4, .tiercombined .Tier6, .tiercombined .Tier8 { background:#D9DFE7; }
+.tiercombined .Tier1, .tiercombined .Tier3, 
+.tiercombined .Tier5, .tiercombined .Tier7 { 
+background:#f5e5cc; 
+background: -moz-linear-gradient(top, rgba(245,229,204,1) 0%, rgba(247,209,153,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,229,204,1)), color-stop(100%, rgba(247,209,153,1)));
+background: -webkit-linear-gradient(top, rgba(245,229,204,1) 0%, rgba(247,209,153,1) 100%);
+background: -o-linear-gradient(top, rgba(245,229,204,1) 0%, rgba(247,209,153,1) 100%);
+background: -ms-linear-gradient(top, rgba(245,229,204,1) 0%, rgba(247,209,153,1) 100%);
+background: linear-gradient(to bottom, rgba(245,229,204,1) 0%, rgba(247,209,153,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5e5cc', endColorstr='#f7d199', GradientType=0 );
+}
+.tiercombined .Tier2, .tiercombined .Tier4, 
+.tiercombined .Tier6, .tiercombined .Tier8 { 
+background:#D9DFE7; 
+background: -moz-linear-gradient(top, rgba(217,223,231,1) 0%, rgba(186,204,227,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(217,223,231,1)), color-stop(100%, rgba(186,204,227,1)));
+background: -webkit-linear-gradient(top, rgba(217,223,231,1) 0%, rgba(186,204,227,1) 100%);
+background: -o-linear-gradient(top, rgba(217,223,231,1) 0%, rgba(186,204,227,1) 100%);
+background: -ms-linear-gradient(top, rgba(217,223,231,1) 0%, rgba(186,204,227,1) 100%);
+background: linear-gradient(to bottom, rgba(217,223,231,1) 0%, rgba(186,204,227,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9dfe7', endColorstr='#bacce3', GradientType=0 );
+}
